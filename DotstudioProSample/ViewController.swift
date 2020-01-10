@@ -15,6 +15,8 @@ class Sample {
         case simplePlayer
         case customPlayer
         case advancedPlayer
+        case channelScreen
+        case advancedChannelScreen
     }
 
     var title: String = ""
@@ -44,8 +46,10 @@ class ViewController: UIViewController {
 
     var samples: [Sample] = [
         Sample("Simple Player", description: "A Simple Default Player which can be directly launched Without any configuration.", type: .simplePlayer),
-        Sample("Advanced Player", description: "A Advanced Player.", type: .advancedPlayer),
-//        Sample("Custom Player", description: "A Custom Player.", type: .customPlayer)
+        Sample("Advanced Player", description: "A Advanced Player customized with theme color for player tint.", type: .advancedPlayer),
+        Sample("Custom Player with custom UI controls which play, pause player programatically.", description: "A Custom Player.", type: .customPlayer),
+        Sample("Channel Screen", description: "A Channel Player.", type: .channelScreen),
+        Sample("Advanced Channel Screen", description: "A Channel Player.", type: .advancedChannelScreen)
     ]
     
     override func viewDidLoad() {
@@ -104,5 +108,11 @@ extension ViewController: UITableViewDelegate {
 
 
 
-
+extension UIViewController {
+    func showHelpUrlInBrowser(_ strUrl: String) {
+        if let url = URL(string: strUrl) {
+            UIApplication.shared.open(url)
+        }
+    }
+}
 

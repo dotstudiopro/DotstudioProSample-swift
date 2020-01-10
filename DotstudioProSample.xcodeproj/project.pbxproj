@@ -89,8 +89,8 @@
 		6C460C2E23AB8DAE0097A7FC /* DotstudioProSample */ = {
 			isa = PBXGroup;
 			children = (
-				6C363EB223C8ABF20062A0F7 /* Advanced Player */,
 				6C460C4323ABBB100097A7FC /* Simple Player */,
+				6C363EB223C8ABF20062A0F7 /* Advanced Player */,
 				6C460C2F23AB8DAE0097A7FC /* AppDelegate.swift */,
 				6C460C3123AB8DAE0097A7FC /* SceneDelegate.swift */,
 				6C460C3323AB8DAE0097A7FC /* ViewController.swift */,

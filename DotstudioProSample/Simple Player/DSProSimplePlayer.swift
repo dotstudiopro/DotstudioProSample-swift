@@ -23,6 +23,12 @@ class DSProSimplePlayer: UIViewController {
         super.viewDidAppear(animated)
         self.initializeDSP()
     }
+    
+    
+    @IBAction func didClickActionButton(_ sender: Any) {
+        self.showHelpUrlInBrowser("https://github.com/dotstudiopro/DotstudioProSample-swift/blob/master/DotstudioProSample/Simple%20Player/DSProSimplePlayer.swift")
+    }
+    
     func initializeDSP(){
         guard let window = self.view.window else {
             print("No Window found")
