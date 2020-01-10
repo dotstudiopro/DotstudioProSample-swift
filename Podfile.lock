@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Auth0 (1.19.3):
+    - SimpleKeychain
+  - DotstudioPRO (0.0.1):
+    - Alamofire
+    - AlamofireImage (~> 3.5)
+    - Auth0 (~> 1.15)
+    - FontAwesomeKit.Swift
+    - google-cast-sdk (< 5.0, >= 4.3.4)
+    - GoogleAds-IMA-iOS-SDK (>= 3.3)
+    - Lock (~> 2.10)
+    - YouboraAVPlayerAdapter
+  - FontAwesomeKit.Swift (1.0.2)
+  - google-cast-sdk (4.4.6):
+    - google-cast-sdk/Core (= 4.4.6)
+    - Protobuf (~> 3.0)
+  - google-cast-sdk/Core (4.4.6):
+    - Protobuf (~> 3.0)
+  - GoogleAds-IMA-iOS-SDK (3.11.1)
+  - Lock (2.13.2):
+    - Auth0 (~> 1.19)
+    - Lock/Classic (= 2.13.2)
+  - Lock/Classic (2.13.2):
+    - Auth0 (~> 1.19)
+  - Protobuf (3.11.2)
+  - SimpleKeychain (0.9.0)
+  - YouboraAVPlayerAdapter (6.5.10):
+    - YouboraAVPlayerAdapter/Default (= 6.5.10)
+    - YouboraLib (~> 6.5.0)
+  - YouboraAVPlayerAdapter/Default (6.5.10):
+    - YouboraLib (~> 6.5.0)
+  - YouboraLib (6.5.12)
+
+DEPENDENCIES:
+  - DotstudioPRO (from `/Users/ketansakariya/Documents/Beanstalkapp/dotstudiopro-swift`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Auth0
+    - FontAwesomeKit.Swift
+    - google-cast-sdk
+    - GoogleAds-IMA-iOS-SDK
+    - Lock
+    - Protobuf
+    - SimpleKeychain
+    - YouboraAVPlayerAdapter
+    - YouboraLib
+
+EXTERNAL SOURCES:
+  DotstudioPRO:
+    :path: "/Users/ketansakariya/Documents/Beanstalkapp/dotstudiopro-swift"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Auth0: 195ea089de471c72bf95eb5320ff86c224debf3c
+  DotstudioPRO: d135a96a8a85c5d1ac06d693d2806b00c78d0813
+  FontAwesomeKit.Swift: cf839537bbff89b5853a00653b2a2f31748c2c1c
+  google-cast-sdk: df8b7421e35c6f9f54fc89e437d847b56d4a7885
+  GoogleAds-IMA-iOS-SDK: 5bc743cca6f70bb403f34a6a336a2dbe70e12e1e
+  Lock: a8acd80e0b2aa750dd86e80d4e1e9fd91eec754c
+  Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+  SimpleKeychain: 3be49072fd2d82de8fa83d847ef1e548622f8fc5
+  YouboraAVPlayerAdapter: 7224390488c7381ef1c6bf5e4aacf729dcedf7ec
+  YouboraLib: ba0dd2a0b7e49d84dbf0c314adf7afcf1e732ec6
+
+PODFILE CHECKSUM: 74532a1358071c40a5883b43426bd69046713a08
+
+COCOAPODS: 1.8.4

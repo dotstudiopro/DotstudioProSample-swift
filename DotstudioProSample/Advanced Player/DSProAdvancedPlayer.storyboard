@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pro Advanced Player-->
+        <scene sceneID="77g-RO-x7Z">
+            <objects>
+                <viewController storyboardIdentifier="DSProAdvancedPlayer" id="aGW-75-AmJ" customClass="DSProAdvancedPlayer" customModule="DotstudioProSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LyM-PT-nIy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKv-r8-4uv">
+                                <rect key="frame" x="57" y="144" width="300" height="169"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vKv-r8-4uv" secondAttribute="height" multiplier="16:9" id="KOQ-Lu-Rgd"/>
+                                    <constraint firstAttribute="width" constant="300" id="k1w-rI-Zk9"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vKv-r8-4uv" firstAttribute="top" secondItem="QEx-FH-Nas" secondAttribute="top" constant="100" id="Koj-aA-Y0w"/>
+                            <constraint firstItem="vKv-r8-4uv" firstAttribute="centerX" secondItem="QEx-FH-Nas" secondAttribute="centerX" id="o9C-Ke-Uyd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QEx-FH-Nas"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerContainerView" destination="vKv-r8-4uv" id="36Z-9G-zcO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIK-x9-caO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="96"/>
+        </scene>
+    </scenes>
+</document>
