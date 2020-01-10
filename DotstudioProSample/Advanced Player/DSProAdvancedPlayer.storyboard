@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pro Advanced Player-->
+        <!--Title-->
         <scene sceneID="77g-RO-x7Z">
             <objects>
                 <viewController storyboardIdentifier="DSProAdvancedPlayer" id="aGW-75-AmJ" customClass="DSProAdvancedPlayer" customModule="DotstudioProSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vKv-r8-4uv">
-                                <rect key="frame" x="57" y="144" width="300" height="169"/>
+                                <rect key="frame" x="57" y="188" width="300" height="169"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vKv-r8-4uv" secondAttribute="height" multiplier="16:9" id="KOQ-Lu-Rgd"/>
@@ -32,6 +32,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QEx-FH-Nas"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="ByP-CV-gtd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="FQB-S1-Cq9">
+                            <connections>
+                                <action selector="didClickActionButton:" destination="aGW-75-AmJ" id="BvM-Us-gcR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="playerContainerView" destination="vKv-r8-4uv" id="36Z-9G-zcO"/>
                     </connections>
